@@ -5,3 +5,5 @@ object pepita {
     energia = energia - 10
   }
 }
+
+asd
