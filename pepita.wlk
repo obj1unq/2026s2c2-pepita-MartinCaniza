@@ -15,6 +15,22 @@ object pepita {
 
   method cansada(){
    return energia < 30
- }
+   
+  }
+
+  method comer(comida){
+
+    energia = energia + comida.energiaQueAporta()
+
+  }
 }
 
+object alpiste {
+  method energiaQueAporta(){
+    return 20
+  }
+}
+
+object manzana{
+  
+}
