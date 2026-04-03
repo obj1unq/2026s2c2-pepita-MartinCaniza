@@ -43,6 +43,11 @@
   object manzana{
     var madurez = 0
 
+
+  method madurez(_madurez){
+    madurez = _madurez
+  }
+
     method energiaQueAporta(){
       if(madurez < 3){
         return 20 * madurez
